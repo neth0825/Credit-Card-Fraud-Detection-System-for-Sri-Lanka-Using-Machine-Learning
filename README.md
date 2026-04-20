@@ -8,6 +8,7 @@ Global Dataset (Kaggle): 2,512 transactions, 16 attributes (transaction details,
 Local Dataset (Sri Lanka Merchant): 860 transactions, with categorical identifiers (TransactionDate, ApprovalNumber, CardNumber) and numeric attributes (GrossAmount, DiscountAmount, NetAmount).
 
  Methodology
+ 
  Data Preprocessing: Cleaning duplicates, handling missing values, encoding categorical variables, and standardizing formats.
 
 Model Selection:
@@ -21,6 +22,7 @@ Evaluation Metrics: Accuracy, precision, recall, F1‑score.
 Hybrid Workflow: SMS verification (“YES” or “NO”) combined with ML predictions for anomaly detection.
 
  Results
+ 
 Global Dataset: Accuracy 0.88, but poor fraud recall (0.06).
 
 Local Dataset: Balanced outcomes, Random Forest (0.88 accuracy) and SVM (0.87 accuracy) with strong recall.
